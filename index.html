@@ -68,9 +68,23 @@
 
       <p>Drag and drop the button to your bookmarks toolbar<p>
 
-      <p><a class="button" onclick="alert('I said drag and drop it to your bookmarks toolbar. Not to click on it. Try again.'); return false;" href="javascript:i=window.getSelection()+''||prompt('Paste your base64');if(i){while(/^[a-z0-9+/=]+$/gi.test(i)){i=atob(i)};confirm(`Click OK to go to\n${i}`)?window.open(i,'_blank').focus():console.log(i);}" title="Base64 decoder">Base64 Decoder+</a></p>
+      <p><a class="button" onclick="alert('I said drag and drop it to your bookmarks toolbar. Not to click on it. Try again.'); return false;" href="javascript:i=window.getSelection()+''||prompt('Paste your base64');if(i){while(/^[a-z0-9+/=]+$/gi.test(i)){i=atob(i)};confirm(`Click OK to go to\n${i}`)?window.open(i,'_blank').focus():console.log(i);}console.log(i);" title="Base64 decoder">Base64 Decoder+</a></p>
 
       <p>Then when you want to decode some base64, simply select your text in your webpage and click on the bookmark.</p>
+
+      <p>No matter if it's encoded twice or more in base64.</p>
+      
+      <h1>How to install</h1>
+
+      <video autoplay muted src="install.mp4"></video>
+
+      <h1>How to use</h1>
+
+      <video autoplay muted src="use1.mp4"></video>
+      <p>By selecting test and clicking on the bookmark</p>
+      
+      <video autoplay muted src="use2.mp4"></video>
+      <p>..or clicking on the bookmark and paste your base64</p>
 
 
       <p class="credits"><a class="link" href="http://twitter.com/mxwllt">@mxwllt</a></p>
