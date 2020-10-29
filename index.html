@@ -68,7 +68,7 @@
 
       <p>Drag and drop the button to your bookmarks toolbar<p>
 
-      <p><a class="button" onclick="alert('I said drag and drop it to your bookmarks toolbar. Not to click on it. Try again.'); return false;" href="javascript:i=window.getSelection()+''||prompt('Paste your base64');while(/^[a-z0-9+/=]+$/gi.test(i)){i=atob(i)};confirm(`Click OK to go to\n${i}`)?window.open(i,'_blank').focus():console.log(i);" title="Base64 decoder">Base64 Decoder+</a></p>
+      <p><a class="button" onclick="alert('I said drag and drop it to your bookmarks toolbar. Not to click on it. Try again.'); return false;" href="javascript:i=window.getSelection()+''||prompt('Paste your base64');if(i){while(/^[a-z0-9+/=]+$/gi.test(i)){i=atob(i)};confirm(`Click OK to go to\n${i}`)?window.open(i,'_blank').focus():console.log(i);}" title="Base64 decoder">Base64 Decoder+</a></p>
 
       <p>Then when you want to decode some base64, simply select your text in your webpage and click on the bookmark.</p>
 
